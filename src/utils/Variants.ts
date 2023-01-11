@@ -5,9 +5,9 @@ export const variants: Variants = {
     visible: {
       opacity: 1,
       transition: {
-        duration: 1,
-        delayChildren: 1,
-        staggerChildren: 0.7
+        duration: 0.5,
+        delayChildren: 0.4,
+        staggerChildren: 0.5
       }
     }
   }

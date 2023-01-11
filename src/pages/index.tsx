@@ -9,7 +9,7 @@ export default function Home() {
         className="text-4xl sm:text-6xl lg:text-7xl mt-5 md:mt-20 leading-none font-extrabold tracking-tighter text-gray-900"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 0.7 }}
       >
         Contrua sites modernos com agilidade sem sair do HTML
       </motion.h1>
@@ -18,7 +18,7 @@ export default function Home() {
       <motion.div
         className="mt-10 md:mt-20 grid w-full grid-cols-1 grid-rows-3 gap-4 md:grid-cols-3 md:grid-rows-1"
         transition={{
-          delay: 2
+          delay: 0.3
         }}
         variants={variants}
         initial="hidden"
